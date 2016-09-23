@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Khoj 2014</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fa">&#xf0f3;</string>
+    <string name="compas">&#xf14e;</string>
+    <string name="map">&#xf041;</string>
+    <string name="trailer">&#xf008;</string>
+    <string name="notifications">&#xf0f3;</string>
+    <string name="RSVP">&#xf095;</string>
+    <string name="arrow">&#xf101;</string>
+    
+    <string name="xp">&#xf14e; Explore</string>
+</resources>

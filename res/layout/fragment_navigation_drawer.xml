@@ -1,0 +1,12 @@
+<ListView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ndrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:paddingTop="20dp"
+    android:choiceMode="singleChoice"
+    android:divider="#999"
+    android:dividerHeight="0dp"
+    tools:context="com.npsk.khoj.NavigationDrawerFragment" />

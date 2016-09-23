@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FF9900"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="16dp"
+            android:text="@string/map"
+            android:textColor="#fff"
+            android:textSize="28dp" />
+        
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="45dp"
+            android:paddingRight="16dp"
+            android:text="Map"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+    </RelativeLayout>
+    
+	<com.polites.android.GestureImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/ss"
+        android:scaleType="centerCrop"
+        gesture-image:min-scale="0.1"
+        gesture-image:max-scale="10.0"
+        gesture-image:strict="false"/>
+    
+</LinearLayout>
